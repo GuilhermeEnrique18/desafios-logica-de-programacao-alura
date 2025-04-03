@@ -1,11 +1,12 @@
-//Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+//Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
 
-//Declaração contador
-let contador = 10
-//while(enquanto) + definição da condição do contador 
+alert("Bem vindo ao programa contagem regressiva!");
+
+let contador = prompt("Informe um número para contagem: ");
+
 while(contador >=0){
-    console.log(`valor = ${contador}`)
+    console.log(`valor = ${contador}`);
     contador--
-    //contador-- é a mesma coisa que contador = contador - 1
+  
 }
 
